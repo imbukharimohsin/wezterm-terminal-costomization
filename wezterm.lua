@@ -66,7 +66,7 @@ wezterm.on("gui-startup", function()
 end)
 
 -- Shell
-config.default_prog = { "/usr/bin/zsh", "-l" }
+config.default_prog = { "/bin/zsh", "-l" }
 
 -- Fonts
 config.font = wezterm.font_with_fallback({
